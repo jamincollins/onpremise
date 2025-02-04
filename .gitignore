@@ -89,6 +89,7 @@ data/
 sentry/sentry.conf.py
 sentry/config.yml
 sentry/*.bak
+sentry/backup.json
 sentry/enhance-image.sh
 sentry/requirements.txt
 relay/credentials.json
@@ -98,9 +99,9 @@ geoip/GeoIP.conf
 geoip/*.mmdb
 geoip/.geoipupdate.lock
 
-# wal2json download
-postgres/wal2json
-
 # integration testing
 _integration-test/custom-ca-roots/nginx/*
 sentry/test-custom-ca-roots.py
+
+# OSX minutia
+.DS_Store
